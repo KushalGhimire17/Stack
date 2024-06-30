@@ -2,9 +2,11 @@
 #include <stdio.h>
 #define SIZE 5
 
+//stack
 int stack[SIZE];
 int top = -1;
 
+//function prototype
 int is_empty();
 int is_full();
 void push(int);
@@ -12,7 +14,7 @@ void pop();
 void display();
 
 int i;
-
+//drivers code
 int main()
 {
     int choice, data;
